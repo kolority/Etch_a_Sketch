@@ -1,0 +1,35 @@
+  html {
+    height: 100%;
+  }
+
+  body{
+    background-color: #eeeeee;  
+    display: flex; 
+    
+  }
+
+  #container {
+    display: inline-grid;
+    
+  }
+
+  #button-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  button{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .grid-item {
+    padding: 1em;
+    background-color: aliceblue;
+    border:  solid rgb(211, 206, 206);       
+  }
+
+  .grid10x{
+    grid-template-columns: repeat(10, auto)
+  }
